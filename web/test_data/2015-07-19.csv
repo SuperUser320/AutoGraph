@@ -1,4 +1,4 @@
-Time,Engine_Load,Coolant_Temp,Engine_RMP,Speed,Throttle,Fuel_Level
+Time,Engine_Load,Coolant_Temperature,Engine_RPM,Speed,Throttle,Fuel_Level
 12:22:12,12,147,1313,26,12,67
 12:22:14,12,144,1345,26,13,67
 12:22:15,15,145,1422,27,18,67
@@ -14,4 +14,3 @@ Time,Engine_Load,Coolant_Temp,Engine_RMP,Speed,Throttle,Fuel_Level
 12:22:25,25,140,1387,31,12,66
 12:22:26,26,142,1421,31,13,66
 12:22:27,26,144,1433,30,14,66
-
