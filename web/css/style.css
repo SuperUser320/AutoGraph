@@ -17,19 +17,29 @@ body {
   font-size: 48px;
   color: #FFF;
   bottom: 15px;
+  border-radius: 5px;
 }
 
 #header-background {
   position: relative;
   background-color: #4C84E6;
   width: 100%;
-  height: 180px;
+  height: 150px;
 }
 
 #subheader-background {
   background-color: #FFF;
   width: 100%;
-  height: 50px;
+}
+
+#subheader-menu ul {
+  margin: 0;
+  padding: 25px;
+}
+
+#subheader-menu li {
+  display: inline;
+  margin: 25px;
 }
 
 .graph-card {
