@@ -24,6 +24,16 @@ var chart = c3.generate({
     }
   },
   size: {
-    height: 600
+    height: 700
+  },
+  subchart: {
+      show: true
   }
 });
+
+function load_graph (link_obj) {
+  var graph_url = link_obj.getAttribute("href");
+  chart.load({
+        url: graph_url
+    });
+}

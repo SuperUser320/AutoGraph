@@ -27,6 +27,19 @@ body {
   height: 150px;
 }
 
+#subheader-note-background {
+  background-color: #6CA4FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+#subheader-note {
+  color: #FFF;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
 #subheader-background {
   background-color: #FFF;
   width: 100%;
@@ -35,11 +48,27 @@ body {
 #subheader-menu ul {
   margin: 0;
   padding: 25px;
+  overflow-x: scroll;
+  white-space:nowrap;
 }
 
 #subheader-menu li {
   display: inline;
   margin: 25px;
+}
+
+#subheader-menu ul li {
+  text-decoration: none;
+  font-size: 20px;
+  color: #555;
+  font-weight: bolder;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#subheader-menu ul li:hover {
+  color: #AAA;
+  transition: .1s;
 }
 
 .graph-card {
@@ -51,4 +80,15 @@ body {
   margin-bottom: 50px;
   box-shadow: 0 5px 10px #BBB;
   border-radius: 5px;
+}
+
+.fadein {
+    /* animation properties */
+    opacity:    0;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transition: 0.7s;
+    transition-delay: 0.5s;
 }

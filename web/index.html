@@ -3,23 +3,30 @@
     <title>AutoGraph</title>
     <!-- Load c3.css -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="c3/c3.css" rel="stylesheet" type="text/css">
+    <link href="libs/c3/c3.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <!-- Load d3.js and c3.js -->
-    <script src="d3/d3.min.js" charset="utf-8"></script>
-    <script src="c3/c3.min.js"></script>
+    <script src="libs/d3/d3.min.js" charset="utf-8"></script>
+    <script src="libs/c3/c3.min.js"></script>
+    <script src="libs/jquery/jquery-2.1.4.min.js"></script>
     <script src="scripts/get_csvs.php"></script>
     <script src="scripts/file_access.js"></script>
+    <script src="scripts/fade.js"></script>
   <body>
     <div id="header-background">
       <div id="header-text" class="center">
         <strong>Auto</strong>Graph
       </div>
     </div>
+    <div id="subheader-note-background">
+      <div id="subheader-note">
+        select a date...
+      </div>
+    </div>
     <div id="subheader-background">
       <div id="subheader-menu"></div>
     </div>
-    <div class="graph-card center">
+    <div class="graph-card center fadein">
       <div id="graph1"></div>
       <script src="scripts/charts.js"></script>
     </div>
